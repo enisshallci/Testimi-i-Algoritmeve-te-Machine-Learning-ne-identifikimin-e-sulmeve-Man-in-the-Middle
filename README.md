@@ -5,7 +5,7 @@ Testimi i algoritmeve Machine Learning për detektimin e sulmeve Man In The Midd
 Algoritmet e testuara:
 <br /><br />
   Logistic Regression <br />
-  Decision Tree Algorith <br />
+  Decision Tree Algorithm <br />
   Random Forest Classification <br />
   MLP Neural Network <br />
   Support vector machines (SVMs) <br />
