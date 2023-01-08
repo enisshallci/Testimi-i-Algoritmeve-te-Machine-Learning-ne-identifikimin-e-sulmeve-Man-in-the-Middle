@@ -22,3 +22,5 @@ model.fit(X_train, y_train)
 # Testojmë modelin me të dhënat e "testing set"-it
 y_pred = model.predict(X_test)
 
+accuracy = model.score(X_test, y_test)
+print(f'Accuracy: {accuracy}')
