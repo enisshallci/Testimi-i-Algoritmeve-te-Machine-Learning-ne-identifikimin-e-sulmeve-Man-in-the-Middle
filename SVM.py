@@ -19,3 +19,6 @@ model = SVC()
 # Fitojmë modelin me të dhënat e "training set"-it
 model.fit(X_train, y_train)
 
+# Testojmë modelin me të dhënat e "testing set"-it
+y_pred = model.predict(X_test)
+
