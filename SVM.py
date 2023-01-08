@@ -16,3 +16,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 # Krijojmë një model të llojit "SVM"
 model = SVC()
 
+# Fitojmë modelin me të dhënat e "training set"-it
+model.fit(X_train, y_train)
+
